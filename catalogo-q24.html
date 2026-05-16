@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | FLOKAM Dermarket</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="q24">
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="FLOKAM Dermarket">
+        <span class="brand-mark"><i data-lucide="droplets" class="icon"></i></span>
+        <span class="brand-name">FLOKAM Dermarket <small>Cuidado capilar especializado</small></span>
+      </a>
+      <nav class="nav-links" aria-label="Navegación principal">
+        <a href="index.html" data-nav="home">Inicio</a>
+        <a href="catalogo-q24.html" data-nav="q24">Productos</a>
+        <a href="guia-capilar.html" data-nav="guia">Detalles</a>
+        <a href="contacto.html" data-nav="contacto">Contacto</a>
+        <a class="cart-pill" href="carrito.html" data-nav="carrito">Carrito <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="catalog-hero category-hero">
+      <div class="container">
+        <div class="section-head compact-head">
+          <div>
+            <div class="tagline"><i data-lucide="boxes" class="icon"></i> Mercado</div>
+            <h1 class="page-title">Productos.</h1>
+          </div>
+          <p>Busca por producto, elige catálogo y filtra por categoría.</p>
+        </div>
+        <div class="market-filters" data-catalog-filters aria-label="Catálogos"></div>
+        <div class="category-filters" data-category-filters aria-label="Categorías de productos"></div>
+      </div>
+    </section>
+
+    <section class="section q24-section">
+      <div class="container">
+        <div class="catalog-toolbar" aria-label="Búsqueda de productos">
+          <div class="search-wrap">
+            <i data-lucide="search" class="icon"></i>
+            <input type="search" placeholder="Buscar producto, marca o referencia" data-q24-search>
+          </div>
+          <label class="sort-wrap">
+            <span>Ordenar</span>
+            <select data-sort-select>
+              <option value="relevance">Relevancia</option>
+              <option value="price-asc">Menor precio</option>
+              <option value="price-desc">Mayor precio</option>
+              <option value="name-asc">Nombre A-Z</option>
+            </select>
+          </label>
+          <div class="catalog-meta">
+            <span data-q24-count>0 productos encontrados</span>
+          </div>
+        </div>
+
+        <div class="q24-grid" data-q24-grid></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <script src="q24-data.js" charset="UTF-8"></script>
+  <script src="store.js" charset="UTF-8"></script>
+</body>
+</html>

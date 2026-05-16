@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guía Capilar | FLOKAM Dermarket</title>
+  <title>Detalles y referencias | FLOKAM Dermarket</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="guia">
@@ -15,8 +15,8 @@
       </a>
       <nav class="nav-links" aria-label="Navegación principal">
         <a href="index.html" data-nav="home">Inicio</a>
-        <a href="producto.html" data-nav="producto">Producto</a>
-        <a href="guia-capilar.html" data-nav="guia">Guía capilar</a>
+        <a href="catalogo-q24.html" data-nav="q24">Productos</a>
+        <a href="guia-capilar.html" data-nav="guia">Detalles</a>
         <a href="contacto.html" data-nav="contacto">Contacto</a>
         <a class="cart-pill" href="carrito.html" data-nav="carrito">Carrito <span class="cart-count">0</span></a>
       </nav>
@@ -28,49 +28,72 @@
       <div class="container">
         <div class="section-head">
           <div>
-            <div class="tagline"><i data-lucide="book-open" class="icon"></i> Guía capilar</div>
-            <h1 class="page-title">Malassezia, caspa y cuidado del cuero cabelludo.</h1>
+            <div class="tagline"><i data-lucide="badge-check" class="icon"></i> Detalles por producto</div>
+            <h1 class="page-title">Referencias y detalles.</h1>
           </div>
-          <p>Información visual para entender señales, factores y cómo puede apoyar una rutina con Champú de Alquitrán.</p>
+          <p>Consulta las referencias disponibles, notas rápidas por familia y datos útiles para organizar próximos catálogos en la misma tienda.</p>
         </div>
 
-        <div class="education-grid">
+        <div class="education-grid benefits-overview">
           <article class="education-card">
-            <img src="assets/info-malassezia.webp" alt="Qué es la Malassezia">
+            <img src="assets/producto-presentaciones.webp" alt="Champú de Alquitrán FLOKAM">
             <div class="education-card-content">
-              <h3>Qué es la Malassezia</h3>
-              <p>Una levadura presente en la microbiota normal de la piel y el cuero cabelludo.</p>
+              <h3>FLOKAM</h3>
+              <p>Cuidado capilar especializado para rutinas de limpieza del cuero cabelludo con descamación, oleosidad o sensación de desequilibrio.</p>
             </div>
           </article>
           <article class="education-card">
-            <img src="assets/senales-factores.webp" alt="Señales y factores que favorecen la Malassezia">
+            <img src="assets/q24/q24-reloj-curren-verde.webp" alt="Reloj Curren original">
             <div class="education-card-content">
-              <h3>Señales frecuentes</h3>
-              <p>Escamas, picazón, enrojecimiento, sensación grasa y factores como calor, humedad u oleosidad.</p>
+              <h3>Relojería</h3>
+              <p>Accesorios de uso diario, regalo y estilo personal. Buen formato para contenido visual y ventas por impulso.</p>
             </div>
           </article>
           <article class="education-card">
-            <img src="assets/beneficios-alquitran.webp" alt="Cómo ayuda el champú de alquitrán">
+            <img src="assets/q24/perfumes-masculinos-002-scandal-men-jp-100-ml.webp" alt="Perfume masculino Q24">
             <div class="education-card-content">
-              <h3>Cómo apoya la rutina</h3>
-              <p>Puede ayudar a reducir descamación, aliviar picazón e irritación y apoyar el control de oleosidad.</p>
+              <h3>Perfumería masculina</h3>
+              <p>Referencias para uso personal, oficina, salidas y regalo. Las imágenes conservan acordes para orientar al cliente.</p>
             </div>
           </article>
           <article class="education-card">
-            <img src="assets/escamacion-oleosidad.webp" alt="Escamación y oleosidad del cuero cabelludo">
+            <img src="assets/q24/perfumes-femeninos-002-ch-carolina-herrera-2-la-bomba-carolina-herrera-90-ml.webp" alt="Perfume femenino Q24">
             <div class="education-card-content">
-              <h3>Qué hacer</h3>
-              <p>Mantén una higiene constante, evita rascar la zona y consulta si hay placas, dolor o persistencia.</p>
+              <h3>Perfumería femenina</h3>
+              <p>Opciones para regalo, ocasión especial y rutina diaria. Útiles para publicar por estilo aromático y presentación.</p>
+            </div>
+          </article>
+          <article class="education-card">
+            <img src="assets/q24/perfumes-arabes-002-bharara-b-ha-r-ara-viring-dubai-bharara-viking-dubai-100-ml.webp" alt="Perfume árabe Q24">
+            <div class="education-card-content">
+              <h3>Perfumería árabe</h3>
+              <p>Fragancias de presencia intensa, buena recordación visual y referencias llamativas para clientes que buscan novedad.</p>
             </div>
           </article>
         </div>
 
-        <div class="notice">Esta guía no reemplaza una valoración médica. Si los síntomas persisten o empeoran, consulta a un profesional de salud.</div>
+        <div class="details-panel">
+          <div class="details-panel-head">
+            <div>
+              <h2>Fichas rápidas de referencia</h2>
+              <p data-q24-detail-count>0 referencias disponibles</p>
+            </div>
+            <div class="search-wrap">
+              <i data-lucide="search" class="icon"></i>
+              <input type="search" placeholder="Buscar referencia o categoría" data-q24-benefit-search>
+            </div>
+          </div>
+
+          <div class="benefit-list" data-q24-details></div>
+        </div>
+
+        <div class="notice">Estas notas sirven como apoyo de referencia para publicaciones y conversaciones. La disponibilidad, colores, modelos y referencias deben confirmarse por WhatsApp antes de cerrar una venta.</div>
       </div>
     </section>
   </main>
 
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <script src="store.js"></script>
+  <script src="q24-data.js" charset="UTF-8"></script>
+  <script src="store.js" charset="UTF-8"></script>
 </body>
 </html>

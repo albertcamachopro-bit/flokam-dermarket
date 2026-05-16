@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FLOKAM Dermarket | Champú de Alquitrán</title>
+  <title>Datos de entrega | FLOKAM Dermarket</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body data-page="home">
@@ -15,8 +15,8 @@
       </a>
       <nav class="nav-links" aria-label="Navegación principal">
         <a href="index.html" data-nav="home">Inicio</a>
-        <a href="producto.html" data-nav="producto">Producto</a>
-        <a href="guia-capilar.html" data-nav="guia">Guía capilar</a>
+        <a href="catalogo-q24.html" data-nav="q24">Productos</a>
+        <a href="guia-capilar.html" data-nav="guia">Detalles</a>
         <a href="contacto.html" data-nav="contacto">Contacto</a>
         <a class="cart-pill" href="carrito.html" data-nav="carrito">Carrito <span class="cart-count">0</span></a>
       </nav>
@@ -24,74 +24,63 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="container hero-grid">
+    <section class="section checkout-entry" id="datos-comprador">
+      <div class="container checkout-entry-grid">
         <div>
-          <div class="tagline"><i data-lucide="sparkles" class="icon"></i> Stock limitado en dos presentaciones</div>
-          <h1>Champú de Alquitrán para el cuidado del cuero cabelludo.</h1>
-          <p class="hero-text">Dermocosmético de uso frecuente para apoyar la rutina de limpieza del cuero cabelludo con caspa, descamación, oleosidad y sensación de desequilibrio.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="producto.html"><i data-lucide="shopping-bag" class="icon"></i> Ver presentaciones</a>
-            <a class="btn btn-whatsapp" href="https://wa.me/573122225545" target="_blank" rel="noreferrer"><i data-lucide="message-circle" class="icon"></i> Pedir por WhatsApp</a>
-          </div>
-          <div class="hero-proof">
-            <div class="proof-item"><strong>120 cc</strong><span>$40.000 COP</span></div>
-            <div class="proof-item"><strong>500 cc</strong><span>$100.000 COP</span></div>
-            <div class="proof-item"><strong>FLOKAM</strong><span>venta directa</span></div>
-          </div>
+          <div class="tagline"><i data-lucide="clipboard-check" class="icon"></i> Datos de compra</div>
+          <h1 class="page-title">Datos de entrega.</h1>
+          <p class="lead">Completa la información real de quien recibirá el pedido. El carrito la usará automáticamente al enviar la solicitud por WhatsApp.</p>
+          <div class="buyer-status" data-customer-home-status>Datos pendientes.</div>
         </div>
-        <div class="media-frame">
-          <img src="assets/stock-limitado.webp" alt="Champú de Alquitrán en presentaciones de 120 cc y 500 cc">
-          <div class="media-note">
-            <span><strong>Presentaciones disponibles</strong> 120 cc y 500 cc</span>
-            <i data-lucide="package-check" class="icon"></i>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section alt">
-      <div class="container">
-        <div class="section-head">
-          <h2>Un producto, dos tamaños, una ruta de compra clara.</h2>
-          <p>Este sitio queda listo para crecer como marketplace: hoy arranca con Champú de Alquitrán y más adelante se pueden sumar nuevos productos sin mezclarlo con la web de mockups.</p>
-        </div>
-        <div class="grid-3">
-          <article class="card">
-            <h3>Control visible</h3>
-            <p>Diseñado para acompañar rutinas de limpieza cuando hay caspa, escamas visibles, picazón u oleosidad.</p>
-          </article>
-          <article class="card">
-            <h3>Pedido rápido</h3>
-            <p>Agrega la presentación al carrito y envía el pedido por WhatsApp con el detalle listo.</p>
-          </article>
-          <article class="card">
-            <h3>Contacto directo</h3>
-            <p>Compra y consulta directamente con FLOKAM por teléfono o WhatsApp al +57 312 222 5545.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container grid-2">
-        <div class="media-frame">
-          <img src="assets/producto-presentaciones.webp" alt="Presentaciones del Champú de Alquitrán">
-        </div>
-        <div>
-          <div class="tagline"><i data-lucide="shield-check" class="icon"></i> Información importante</div>
-          <h2 class="page-title">Cuidado capilar con comunicación responsable.</h2>
-          <p class="lead">El contenido del sitio evita promesas médicas absolutas y mantiene las precauciones visibles: uso externo, evitar contacto con ojos y suspender si causa irritación.</p>
-          <div class="notice">Si los síntomas persisten o empeoran, consulta a un profesional de salud.</div>
-          <div class="hero-actions">
-            <a class="btn btn-primary" href="guia-capilar.html"><i data-lucide="book-open" class="icon"></i> Leer guía capilar</a>
+        <form class="form-panel checkout-form" data-customer-form>
+          <div class="form-grid">
+            <div class="field full">
+              <label for="customer-name">Nombre y apellido</label>
+              <input id="customer-name" name="fullName" type="text" autocomplete="name" placeholder="Ej. Jose Martinez" data-customer-field="fullName" required>
+            </div>
+            <div class="field full">
+              <label for="customer-address">Dirección de entrega</label>
+              <input id="customer-address" name="address" type="text" autocomplete="street-address" placeholder="Ej. CRA 54A #10-23, Barranquilla" data-customer-field="address" required>
+            </div>
+            <div class="field">
+              <label for="customer-id-type">Tipo de identificación</label>
+              <select id="customer-id-type" name="idType" data-customer-field="idType" required>
+                <option value="">Seleccionar</option>
+                <option value="CC">CC</option>
+                <option value="CE">CE</option>
+                <option value="TI">TI</option>
+                <option value="PASAPORTE">Pasaporte</option>
+                <option value="NIT">NIT</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="customer-id-number">Número de identificación</label>
+              <input id="customer-id-number" name="idNumber" type="text" inputmode="numeric" autocomplete="off" placeholder="Ej. 1234567890" data-customer-field="idNumber" required>
+            </div>
+            <div class="field full">
+              <label for="customer-payment">Método de pago</label>
+              <select id="customer-payment" name="paymentMethod" data-customer-field="paymentMethod" required>
+                <option value="">Seleccionar</option>
+                <option value="POR TRANSFERENCIA">Por transferencia</option>
+                <option value="POR NEQUI">Por Nequi</option>
+                <option value="POR DAVIPLATA">Por Daviplata</option>
+                <option value="EN EFECTIVO">En efectivo</option>
+                <option value="CONTRAENTREGA">Contraentrega</option>
+              </select>
+            </div>
           </div>
-        </div>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" type="submit"><i data-lucide="save" class="icon"></i> Guardar datos</button>
+            <a class="btn" href="catalogo-q24.html"><i data-lucide="shopping-bag" class="icon"></i> Ver productos</a>
+          </div>
+        </form>
       </div>
     </section>
   </main>
 
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <script src="store.js"></script>
+  <script src="store.js" charset="UTF-8"></script>
 </body>
 </html>

@@ -15,8 +15,8 @@
       </a>
       <nav class="nav-links" aria-label="Navegación principal">
         <a href="index.html" data-nav="home">Inicio</a>
-        <a href="producto.html" data-nav="producto">Producto</a>
-        <a href="guia-capilar.html" data-nav="guia">Guía capilar</a>
+        <a href="catalogo-q24.html" data-nav="q24">Productos</a>
+        <a href="guia-capilar.html" data-nav="guia">Detalles</a>
         <a href="contacto.html" data-nav="contacto">Contacto</a>
         <a class="cart-pill" href="carrito.html" data-nav="carrito">Carrito <span class="cart-count">0</span></a>
       </nav>
@@ -40,13 +40,15 @@
           </section>
           <aside class="summary-panel">
             <h3>Resumen</h3>
-            <p>Total estimado del pedido. El valor final puede depender de entrega o disponibilidad.</p>
+            <p>El pedido se enviará por WhatsApp con datos de entrega, artículos, valor total y código de seguridad.</p>
+            <div class="customer-summary" data-customer-summary></div>
             <div class="total-row"><span>Total productos</span><strong class="price" data-cart-total>$0</strong></div>
+            <div class="checkout-code" data-checkout-code-preview>El código se genera al completar datos y carrito.</div>
             <div class="hero-actions">
               <a class="btn btn-whatsapp" href="#" data-whatsapp-order target="_blank" rel="noreferrer">
                 <i data-lucide="message-circle" class="icon"></i> Enviar por WhatsApp
               </a>
-              <a class="btn" href="producto.html"><i data-lucide="arrow-left" class="icon"></i> Seguir comprando</a>
+              <a class="btn" href="catalogo-q24.html"><i data-lucide="arrow-left" class="icon"></i> Seguir comprando</a>
             </div>
             <div class="notice">WhatsApp: +57 312 222 5545</div>
           </aside>
@@ -56,6 +58,7 @@
   </main>
 
   <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-  <script src="store.js"></script>
+  <script src="q24-data.js" charset="UTF-8"></script>
+  <script src="store.js" charset="UTF-8"></script>
 </body>
 </html>

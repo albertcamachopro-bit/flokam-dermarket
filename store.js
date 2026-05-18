@@ -174,7 +174,23 @@ const cartProducts = () => {
     return products;
   }, {});
 
-  return { ...PRODUCTS, ...q24Products };
+  const kaeseProducts = (window.KAESE_PRODUCTS || []).reduce((products, product) => {
+    products[product.id] = {
+      id: product.id,
+      name: product.name,
+      size: "",
+      price: product.price,
+      image: product.image,
+      detail: product.detail,
+      catalog: "kaese",
+      catalogLabel: "KAESE Store",
+      category: product.category,
+      categoryLabel: product.categoryLabel
+    };
+    return products;
+  }, {});
+
+  return { ...PRODUCTS, ...q24Products, ...kaeseProducts };
 };
 
 const productDisplayName = (product) => [product.name, product.size].filter(Boolean).join(" ");
@@ -207,7 +223,13 @@ const catalogProducts = () => {
     catalogLabel: "Q24"
   }));
 
-  return [...flokamProducts, ...q24Products];
+  const kaeseProducts = (window.KAESE_PRODUCTS || []).map((product) => ({
+    ...product,
+    catalog: "kaese",
+    catalogLabel: "KAESE Store"
+  }));
+
+  return [...flokamProducts, ...q24Products, ...kaeseProducts];
 };
 
 const catalogCategories = (products) => {
@@ -352,6 +374,14 @@ const renderQ24Catalog = () => {
 };
 
 const q24BenefitBullets = (product) => {
+  if (product.catalog === "kaese") {
+    return [
+      "Prenda visual para vender por estilo, talla disponible y ocasión de uso.",
+      "Imagen en alta resolución para que el cliente revise forma, color y textura.",
+      "Disponibilidad, tallas y colores se confirman por WhatsApp antes de cerrar el pedido."
+    ];
+  }
+
   if (product.category === "relojeria") {
     return [
       "Accesorio visible para elevar looks casuales o formales.",

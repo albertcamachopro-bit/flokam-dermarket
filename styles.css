@@ -920,19 +920,14 @@ textarea {
 .market-filters,
 .category-filters {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
-  overflow-x: auto;
+  overflow: visible;
   padding-bottom: 4px;
-  scrollbar-width: none;
 }
 
 .market-filters {
   margin-bottom: 12px;
-}
-
-.market-filters::-webkit-scrollbar,
-.category-filters::-webkit-scrollbar {
-  display: none;
 }
 
 .market-filter,

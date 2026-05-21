@@ -1,4 +1,4 @@
-window.KAESE_PRODUCTS = [
+﻿window.KAESE_PRODUCTS = [
   {
     "id": "kaese-hombre-003-bermuda-santi",
     "name": "Bermuda Santi",
@@ -10,7 +10,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1130,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 3"
   },
   {
@@ -24,7 +24,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1438,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 4"
   },
   {
@@ -38,7 +38,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1222,
     "imageHeight": 1280,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 5"
   },
   {
@@ -52,7 +52,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1176,
     "imageHeight": 1280,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 6"
   },
   {
@@ -66,7 +66,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1456,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 7"
   },
   {
@@ -80,7 +80,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1146,
     "imageHeight": 1280,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 8"
   },
   {
@@ -94,7 +94,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1589,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 10"
   },
   {
@@ -108,7 +108,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 12"
   },
   {
@@ -122,7 +122,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1361,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 13"
   },
   {
@@ -136,7 +136,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 14"
   },
   {
@@ -150,7 +150,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1599,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 17"
   },
   {
@@ -164,7 +164,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 19"
   },
   {
@@ -178,7 +178,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1418,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 20"
   },
   {
@@ -192,7 +192,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 21"
   },
   {
@@ -206,7 +206,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1041,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 22"
   },
   {
@@ -220,7 +220,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1024,
     "imageHeight": 1280,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 23"
   },
   {
@@ -234,7 +234,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 26"
   },
   {
@@ -248,7 +248,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Hombre, pagina 29"
   },
   {
@@ -262,7 +262,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 3"
   },
   {
@@ -276,7 +276,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1560,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 4"
   },
   {
@@ -290,7 +290,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1132,
     "imageHeight": 1280,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 5"
   },
   {
@@ -304,7 +304,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1103,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 6"
   },
   {
@@ -318,7 +318,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1077,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 7"
   },
   {
@@ -332,7 +332,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1000,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 8"
   },
   {
@@ -346,7 +346,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 9"
   },
   {
@@ -360,7 +360,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1004,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 10"
   },
   {
@@ -374,7 +374,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1023,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 11"
   },
   {
@@ -388,7 +388,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1117,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 12"
   },
   {
@@ -402,7 +402,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1126,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 13"
   },
   {
@@ -416,7 +416,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1110,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 14"
   },
   {
@@ -430,7 +430,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 965,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 15"
   },
   {
@@ -444,7 +444,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1023,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 16"
   },
   {
@@ -458,7 +458,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1075,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 17"
   },
   {
@@ -472,7 +472,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 901,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 18"
   },
   {
@@ -486,7 +486,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 19"
   },
   {
@@ -500,7 +500,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 20"
   },
   {
@@ -514,7 +514,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 21"
   },
   {
@@ -528,7 +528,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 901,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 22"
   },
   {
@@ -542,7 +542,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1013,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 23"
   },
   {
@@ -556,7 +556,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1130,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 25"
   },
   {
@@ -570,7 +570,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1062,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 26"
   },
   {
@@ -584,7 +584,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 27"
   },
   {
@@ -598,7 +598,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1137,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 28"
   },
   {
@@ -612,7 +612,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1121,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 29"
   },
   {
@@ -626,7 +626,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 31"
   },
   {
@@ -640,7 +640,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 32"
   },
   {
@@ -654,7 +654,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 848,
     "imageHeight": 1200,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE R?gido, pagina 33"
   },
   {
@@ -668,7 +668,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 2"
   },
   {
@@ -682,7 +682,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 3"
   },
   {
@@ -696,7 +696,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 4"
   },
   {
@@ -710,7 +710,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 5"
   },
   {
@@ -724,7 +724,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 6"
   },
   {
@@ -738,7 +738,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 7"
   },
   {
@@ -752,7 +752,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 8"
   },
   {
@@ -766,7 +766,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 9"
   },
   {
@@ -780,7 +780,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 10"
   },
   {
@@ -794,7 +794,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 11"
   },
   {
@@ -808,7 +808,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 12"
   },
   {
@@ -822,7 +822,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 13"
   },
   {
@@ -836,7 +836,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 14"
   },
   {
@@ -850,7 +850,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 15"
   },
   {
@@ -864,7 +864,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 16"
   },
   {
@@ -878,7 +878,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 17"
   },
   {
@@ -892,7 +892,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 18"
   },
   {
@@ -906,7 +906,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 19"
   },
   {
@@ -920,7 +920,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1198,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 20"
   },
   {
@@ -934,7 +934,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1169,
     "imageHeight": 1240,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 21"
   },
   {
@@ -948,7 +948,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 22"
   },
   {
@@ -962,7 +962,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 23"
   },
   {
@@ -976,7 +976,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 24"
   },
   {
@@ -990,7 +990,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 25"
   },
   {
@@ -1004,7 +1004,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 26"
   },
   {
@@ -1018,7 +1018,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1219,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 27"
   },
   {
@@ -1032,7 +1032,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 28"
   },
   {
@@ -1046,7 +1046,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 29"
   },
   {
@@ -1060,7 +1060,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 30"
   },
   {
@@ -1074,7 +1074,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 31"
   },
   {
@@ -1088,7 +1088,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 32"
   },
   {
@@ -1102,7 +1102,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 33"
   },
   {
@@ -1116,7 +1116,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 34"
   },
   {
@@ -1130,7 +1130,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 35"
   },
   {
@@ -1144,7 +1144,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 36"
   },
   {
@@ -1158,7 +1158,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 37"
   },
   {
@@ -1172,7 +1172,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 38"
   },
   {
@@ -1186,7 +1186,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 42"
   },
   {
@@ -1200,7 +1200,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1566,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 43"
   },
   {
@@ -1214,7 +1214,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 44"
   },
   {
@@ -1228,7 +1228,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1273,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 45"
   },
   {
@@ -1242,7 +1242,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 46"
   },
   {
@@ -1256,7 +1256,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 47"
   },
   {
@@ -1270,7 +1270,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 48"
   },
   {
@@ -1284,7 +1284,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 49"
   },
   {
@@ -1298,7 +1298,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 50"
   },
   {
@@ -1312,7 +1312,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1282,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 51"
   },
   {
@@ -1326,7 +1326,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1240,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 52"
   },
   {
@@ -1340,7 +1340,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 53"
   },
   {
@@ -1354,7 +1354,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 54"
   },
   {
@@ -1368,7 +1368,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1229,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 55"
   },
   {
@@ -1382,7 +1382,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1419,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 57"
   },
   {
@@ -1396,7 +1396,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 900,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 58"
   },
   {
@@ -1410,7 +1410,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 59"
   },
   {
@@ -1424,7 +1424,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 61"
   },
   {
@@ -1438,7 +1438,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 62"
   },
   {
@@ -1452,7 +1452,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 63"
   },
   {
@@ -1466,7 +1466,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 64"
   },
   {
@@ -1480,7 +1480,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 65"
   },
   {
@@ -1494,7 +1494,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 66"
   },
   {
@@ -1508,7 +1508,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 67"
   },
   {
@@ -1522,7 +1522,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 68"
   },
   {
@@ -1536,7 +1536,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 69"
   },
   {
@@ -1550,7 +1550,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 70"
   },
   {
@@ -1564,7 +1564,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 71"
   },
   {
@@ -1578,7 +1578,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 72"
   },
   {
@@ -1592,7 +1592,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 73"
   },
   {
@@ -1606,7 +1606,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1068,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 74"
   },
   {
@@ -1620,7 +1620,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 75"
   },
   {
@@ -1634,7 +1634,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 76"
   },
   {
@@ -1648,7 +1648,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Liquidaci?n, pagina 77"
   },
   {
@@ -1662,7 +1662,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 4"
   },
   {
@@ -1676,7 +1676,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 356,
     "imageHeight": 500,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 5"
   },
   {
@@ -1690,7 +1690,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 6"
   },
   {
@@ -1704,7 +1704,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 7"
   },
   {
@@ -1718,7 +1718,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 8"
   },
   {
@@ -1732,7 +1732,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 10"
   },
   {
@@ -1746,7 +1746,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 11"
   },
   {
@@ -1760,7 +1760,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 12"
   },
   {
@@ -1774,7 +1774,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 13"
   },
   {
@@ -1788,7 +1788,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 14"
   },
   {
@@ -1802,7 +1802,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 15"
   },
   {
@@ -1816,7 +1816,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 16"
   },
   {
@@ -1830,7 +1830,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 356,
     "imageHeight": 500,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 17"
   },
   {
@@ -1844,7 +1844,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 18"
   },
   {
@@ -1858,7 +1858,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 19"
   },
   {
@@ -1872,7 +1872,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 21"
   },
   {
@@ -1886,7 +1886,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 22"
   },
   {
@@ -1900,7 +1900,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 24"
   },
   {
@@ -1914,7 +1914,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 356,
     "imageHeight": 500,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE Polilicra, pagina 25"
   },
   {
@@ -1928,7 +1928,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1204,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 3"
   },
   {
@@ -1942,7 +1942,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1332,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 4"
   },
   {
@@ -1956,7 +1956,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 5"
   },
   {
@@ -1970,7 +1970,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 6"
   },
   {
@@ -1984,7 +1984,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 7"
   },
   {
@@ -1998,7 +1998,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 8"
   },
   {
@@ -2012,7 +2012,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1199,
     "imageHeight": 1599,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 9"
   },
   {
@@ -2026,7 +2026,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 10"
   },
   {
@@ -2040,7 +2040,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1200,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 11"
   },
   {
@@ -2054,7 +2054,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1086,
     "imageHeight": 1448,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 13"
   },
   {
@@ -2068,7 +2068,7 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 16"
   },
   {
@@ -2082,7 +2082,8 @@ window.KAESE_PRODUCTS = [
     "imageWidth": 1600,
     "imageHeight": 1600,
     "catalog": "kaese",
-    "catalogLabel": "KAESE Store",
+    "catalogLabel": "Moda",
     "source": "KAESE B?sicas, pagina 17"
   }
 ];
+

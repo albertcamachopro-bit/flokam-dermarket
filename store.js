@@ -39,6 +39,38 @@ const currency = new Intl.NumberFormat("es-CO", {
 
 const formatMoney = (value) => currency.format(value).replace(/\s/g, "");
 
+const hasProductPrice = (product) => (
+  typeof product.price === "number"
+  && Number.isFinite(product.price)
+  && !product.quoteOnly
+);
+
+const productPriceLabel = (product) => hasProductPrice(product)
+  ? formatMoney(product.price)
+  : "Solicitar cotización";
+
+const productLineTotal = (product, qty) => hasProductPrice(product)
+  ? product.price * qty
+  : null;
+
+const cartTotalInfo = (entries) => {
+  const pricedTotal = entries.reduce((sum, { product, qty }) => {
+    const lineTotal = productLineTotal(product, qty);
+    return sum + (lineTotal || 0);
+  }, 0);
+  const hasQuotedItems = entries.some(({ product }) => !hasProductPrice(product));
+
+  return { pricedTotal, hasQuotedItems };
+};
+
+const cartTotalLabel = (entries) => {
+  const { pricedTotal, hasQuotedItems } = cartTotalInfo(entries);
+  if (!entries.length) return "$0";
+  if (pricedTotal && hasQuotedItems) return `${formatMoney(pricedTotal)} + cotización`;
+  if (pricedTotal) return formatMoney(pricedTotal);
+  return "Solicitar cotización";
+};
+
 const getCart = () => {
   try {
     return JSON.parse(localStorage.getItem("flokamCart") || "{}");
@@ -140,9 +172,12 @@ const orderMessage = () => {
   const customer = normalizeCustomer(getCustomer());
   const lines = entries.map(({ product, qty }, index) => {
     const label = upper(productDisplayName(product));
-    return `${index + 1}. ${qty} x ${label} por valor de ${formatMoney(product.price * qty)}`;
+    const lineTotal = productLineTotal(product, qty);
+    return lineTotal
+      ? `${index + 1}. ${qty} x ${label} por valor de ${formatMoney(lineTotal)}`
+      : `${index + 1}. ${qty} x ${label} para solicitar cotización`;
   });
-  const total = entries.reduce((sum, { product, qty }) => sum + product.price * qty, 0);
+  const total = cartTotalLabel(entries);
 
   if (!lines.length) {
     return "Hola, quiero información sobre los productos disponibles.";
@@ -152,7 +187,7 @@ const orderMessage = () => {
     return "Hola, quiero completar mis datos para hacer un pedido en FLOKAM.";
   }
 
-  return `El usuario ${upper(customer.fullName)} con ${upper(customer.idType)} ${customer.idNumber} en ${upper(customer.address)} va a pagar ${upper(customer.paymentMethod)} los siguientes artículos: ${lines.join("; ")}. Por valor total de ${formatMoney(total)}. Mensaje recibido desde el marketplace de FLOKAM #${securityCode(customer.idNumber)}`;
+  return `El usuario ${upper(customer.fullName)} con ${upper(customer.idType)} ${customer.idNumber} en ${upper(customer.address)} va a pagar ${upper(customer.paymentMethod)} los siguientes artículos: ${lines.join("; ")}. Por valor total de ${total}. Mensaje recibido desde el marketplace de FLOKAM #${securityCode(customer.idNumber)}`;
 };
 
 const whatsappUrl = () => `https://wa.me/${PHONE}?text=${encodeURIComponent(orderMessage())}`;
@@ -164,10 +199,11 @@ const cartProducts = () => {
       name: product.name,
       size: "",
       price: product.price,
+      quoteOnly: false,
       image: product.image,
       detail: product.detail,
       catalog: "q24",
-      catalogLabel: "Q24",
+      catalogLabel: "Perfumes y accesorios",
       category: product.category,
       categoryLabel: product.categoryLabel
     };
@@ -180,17 +216,35 @@ const cartProducts = () => {
       name: product.name,
       size: "",
       price: product.price,
+      quoteOnly: false,
       image: product.image,
       detail: product.detail,
       catalog: "kaese",
-      catalogLabel: "KAESE Store",
+      catalogLabel: "Moda",
       category: product.category,
       categoryLabel: product.categoryLabel
     };
     return products;
   }, {});
 
-  return { ...PRODUCTS, ...q24Products, ...kaeseProducts };
+  const labProducts = (window.LAB_PRODUCTS || []).reduce((products, product) => {
+    products[product.id] = {
+      id: product.id,
+      name: product.name,
+      size: "",
+      price: product.price,
+      quoteOnly: Boolean(product.quoteOnly),
+      image: product.image,
+      detail: product.detail,
+      catalog: "laboratorio",
+      catalogLabel: "Laboratorio y bioseguridad",
+      category: product.category,
+      categoryLabel: product.categoryLabel
+    };
+    return products;
+  }, {});
+
+  return { ...PRODUCTS, ...q24Products, ...kaeseProducts, ...labProducts };
 };
 
 const productDisplayName = (product) => [product.name, product.size].filter(Boolean).join(" ");
@@ -212,6 +266,7 @@ const catalogProducts = () => {
     category: product.category,
     categoryLabel: product.categoryLabel,
     price: product.price,
+    quoteOnly: false,
     image: product.image,
     detail: "Producto dermocosmético de uso frecuente para apoyar la limpieza, equilibrio y cuidado del cuero cabelludo.",
     source: "FLOKAM Dermarket"
@@ -220,16 +275,25 @@ const catalogProducts = () => {
   const q24Products = (window.Q24_PRODUCTS || []).map((product) => ({
     ...product,
     catalog: "q24",
-    catalogLabel: "Q24"
+    catalogLabel: "Perfumes y accesorios",
+    quoteOnly: false
   }));
 
   const kaeseProducts = (window.KAESE_PRODUCTS || []).map((product) => ({
     ...product,
     catalog: "kaese",
-    catalogLabel: "KAESE Store"
+    catalogLabel: "Moda",
+    quoteOnly: false
   }));
 
-  return [...flokamProducts, ...q24Products, ...kaeseProducts];
+  const labProducts = (window.LAB_PRODUCTS || []).map((product) => ({
+    ...product,
+    catalog: "laboratorio",
+    catalogLabel: "Laboratorio y bioseguridad",
+    quoteOnly: Boolean(product.quoteOnly)
+  }));
+
+  return [...flokamProducts, ...q24Products, ...kaeseProducts, ...labProducts];
 };
 
 const catalogCategories = (products) => {
@@ -291,9 +355,9 @@ const renderCategoryFilters = () => {
 const sortCatalogProducts = (products) => {
   const sorted = [...products];
   if (activeSort === "price-asc") {
-    sorted.sort((a, b) => a.price - b.price);
+    sorted.sort((a, b) => (hasProductPrice(a) ? a.price : Infinity) - (hasProductPrice(b) ? b.price : Infinity));
   } else if (activeSort === "price-desc") {
-    sorted.sort((a, b) => b.price - a.price);
+    sorted.sort((a, b) => (hasProductPrice(b) ? b.price : -Infinity) - (hasProductPrice(a) ? a.price : -Infinity));
   } else if (activeSort === "name-asc") {
     sorted.sort((a, b) => a.name.localeCompare(b.name, "es"));
   }
@@ -336,16 +400,16 @@ const renderQ24Catalog = () => {
       </a>
       <div class="q24-body">
         <span class="q24-chip">${product.categoryLabel}</span>
-        <span class="q24-catalog-label">Catálogo: ${product.catalogLabel}</span>
+        <span class="q24-catalog-label">Línea: ${product.catalogLabel}</span>
         <h3>${product.name}</h3>
         <p>${product.detail}</p>
         <div class="q24-prices">
           <span>Precio</span>
-          <strong>${formatMoney(product.price)}</strong>
+          <strong>${productPriceLabel(product)}</strong>
         </div>
         <div class="q24-actions">
           <button class="btn btn-primary" type="button" data-add-product="${product.cartProductId || product.id}">
-            <i data-lucide="plus" class="icon"></i> Agregar al carrito
+            <i data-lucide="plus" class="icon"></i> ${hasProductPrice(product) ? "Agregar al carrito" : "Agregar a cotización"}
           </button>
         </div>
       </div>
@@ -374,6 +438,14 @@ const renderQ24Catalog = () => {
 };
 
 const q24BenefitBullets = (product) => {
+  if (product.catalog === "laboratorio") {
+    return [
+      "Referencia técnica para laboratorios, industria, investigación o bioseguridad.",
+      "La imagen corresponde a la página del catálogo para revisar medidas, referencia y presentación.",
+      "Disponibilidad, precio final y condiciones de entrega se confirman por WhatsApp antes de cerrar el pedido."
+    ];
+  }
+
   if (product.catalog === "kaese") {
     return [
       "Prenda visual para vender por estilo, talla disponible y ocasión de uso.",
@@ -448,7 +520,7 @@ const renderQ24Details = () => {
       <div>
         <span class="q24-chip">${product.categoryLabel}</span>
         <h3>${product.name}</h3>
-        <p class="benefit-price">Precio: <strong>${formatMoney(product.price)}</strong></p>
+        <p class="benefit-price">Precio: <strong>${productPriceLabel(product)}</strong></p>
         <ul>
           ${q24BenefitBullets(product).map((item) => `<li>${item}</li>`).join("")}
         </ul>
@@ -505,7 +577,7 @@ const renderCustomerState = () => {
   });
 };
 
-const renderCheckoutActions = (hasItems, total) => {
+const renderCheckoutActions = (hasItems, totalLabel) => {
   const complete = customerComplete();
 
   document.querySelectorAll("[data-whatsapp-order]").forEach((link) => {
@@ -539,7 +611,7 @@ const renderCheckoutActions = (hasItems, total) => {
   });
 
   document.querySelectorAll("[data-checkout-total-label]").forEach((el) => {
-    el.textContent = hasItems ? formatMoney(total) : "$0";
+    el.textContent = hasItems ? totalLabel : "$0";
   });
 
   if (window.lucide) {
@@ -557,7 +629,7 @@ const renderCartPage = () => {
   if (!container) return;
 
   const entries = validCartEntries();
-  const total = entries.reduce((sum, { product, qty }) => sum + product.price * qty, 0);
+  const totalLabel = cartTotalLabel(entries);
 
   if (!entries.length) {
     container.innerHTML = `<div class="empty-state">Tu carrito está vacío. Agrega una referencia para preparar el pedido.</div>`;
@@ -572,7 +644,7 @@ const renderCartPage = () => {
             <h3>${label}</h3>
             <div class="cart-line-meta">
               <span>${product.categoryLabel || "Producto"}</span>
-              <span>${formatMoney(product.price)} unidad</span>
+              <span>${productPriceLabel(product)} unidad</span>
             </div>
             <div class="qty-controls" aria-label="Cantidad ${detail}">
               <button type="button" data-cart-minus="${id}" aria-label="Restar ${detail}">-</button>
@@ -580,18 +652,18 @@ const renderCartPage = () => {
               <button type="button" data-cart-plus="${id}" aria-label="Sumar ${detail}">+</button>
             </div>
           </div>
-          <strong class="price">${formatMoney(product.price * qty)}</strong>
+          <strong class="price">${productLineTotal(product, qty) ? formatMoney(productLineTotal(product, qty)) : "Cotizar"}</strong>
         </article>
       `;
     }).join("");
   }
 
   document.querySelectorAll("[data-cart-total]").forEach((el) => {
-    el.textContent = formatMoney(total);
+    el.textContent = totalLabel;
   });
 
   renderCustomerState();
-  renderCheckoutActions(Boolean(entries.length), total);
+  renderCheckoutActions(Boolean(entries.length), totalLabel);
 };
 
 document.addEventListener("DOMContentLoaded", () => {
